@@ -1,0 +1,32 @@
+.pedestrian-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pedestrian-button:hover {
+  background-color: #0056b3;
+}
+
+.blink,
+.blink:hover {
+  cursor: not-allowed;
+  background-color: #404040;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 1);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+  }
+}

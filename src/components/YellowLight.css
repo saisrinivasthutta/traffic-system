@@ -1,0 +1,50 @@
+@import "./assets/styles/variables.css";
+
+.light {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yellow-light {
+  background-color: var(--bright-yellow);
+}
+
+.active-yellow {
+  box-shadow: var(--bright-yellow) 0px 22px 70px 4px;
+  animation: zoom-in-out 2s infinite;
+}
+
+.inactive-yellow {
+  background-color: var(--dim-light);
+}
+
+@keyframes zoom-in-out {
+  0%,
+  100% {
+    transform: scale(0.95);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.countdown {
+  font-size: 20px;
+  color: var(--text-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.countdown h1 {
+  color: #000;
+  font-weight: 500;
+  font-size: 30px;
+}

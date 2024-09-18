@@ -1,0 +1,17 @@
+/* variables.css */
+:root {
+  --bg-color: #fdfdfd;
+  --text-color: #333;
+  --main-color: #754ef9;
+  --yellow-color: yellow;
+  --shadow-color: ☐ rgba(0, 0, 0, 2);
+  --bright-green: #39ff14;
+  --dim-light: #404040;
+  --bright-red: #ff0000;
+  --bright-yellow: #ffff33;
+
+  /* Font Variables */
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Open Sans", sans-serif;
+  --font-heading: "Montserrat", sans-serif;
+}
